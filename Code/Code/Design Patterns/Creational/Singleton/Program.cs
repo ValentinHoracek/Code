@@ -4,9 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            CoffeeMachineController.Instance.MakeCoffee("Espresso");
+            ICofeeMachihneController coffeeMachine = CoffeeMachineController.Instance;
+            coffeeMachine.MakeCoffee("Espresso");
 
-            string status = CoffeeMachineController.Instance.GetCurrentStatus();
+            string status = coffeeMachine.GetCurrentStatus();
             Console.WriteLine($"Machine status: {status}");
         }
     }

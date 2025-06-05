@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Singleton
+﻿namespace Singleton
 {
-    public sealed class CoffeeMachineController
+    public sealed class CoffeeMachineController : ICofeeMachihneController
     {
         // Lazy initialization for thread-safe, lazy-loaded Singleton
         private static readonly Lazy<CoffeeMachineController> _instance = new(() => new CoffeeMachineController());
