@@ -4,15 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            CoffeeOrder order = new CoffeeOrderBuilder()
-                .SetSize("Large")
-                .AddMilk()
-                .AddSugar()
-                .AddExtra("Cinnamon")
-                .AddExtra("Whipped Cream")
-                .Build();
+            BeverageDirector director = new();
 
-            Console.WriteLine(order);
+            BeverageOrder coffeeOrder = director.BuildCofee();
+            BeverageOrder teaOrder = director.BuildTea();
+
+            Console.WriteLine(coffeeOrder);
+            Console.WriteLine(teaOrder);
         }
     }
 }
