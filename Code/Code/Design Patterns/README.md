@@ -13,4 +13,6 @@ Create new object without constructor -> copying prototype.
 Global access to single instance of a class.
 ## Structural
 ### Adapter
-Consume the interface of a class into another interface the client expects. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+Consume the interface of a class into another interface the client expects. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces. Wraps existing class. One-way Bridge pattern.
+### Bridge
+Separate an abstraction from its implementation. Allows both sides to evolve indepoendently. Two-way abstraction hierarchy.
