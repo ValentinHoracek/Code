@@ -12,3 +12,5 @@ Create new object without constructor -> copying prototype.
 ### Singleton
 Global access to single instance of a class.
 ## Structural
+### Adapter
+Consume the interface of a class into another interface the client expects. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
