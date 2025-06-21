@@ -2,8 +2,11 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            IBrewer brewer = new EspressoBrewer();
+            DrinkMachine drinkMachine = new DrinkMachine(brewer);
+            drinkMachine.MakeDrink();
         }
     }
 }
