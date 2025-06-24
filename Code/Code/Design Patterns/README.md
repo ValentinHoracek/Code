@@ -24,3 +24,5 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 Provide a simplified interface to a complex subsystem. Connect several service references into one for easier injection and manipulation. Doesn't contain any logic only passes calls to respective services.
 ### Flyweight
 Share common object data to save memory by storing intrinsic (shared) state externaly, into separate class, and reusing it across many instances.
+### Proxy
+Provide a substitute or placeholder for another object to control access to it. 
