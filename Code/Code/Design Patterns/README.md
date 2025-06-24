@@ -18,3 +18,5 @@ Consume the interface of a class into another interface the client expects. Adap
 Separate an abstraction from its implementation. Allows both sides to evolve indepoendently. Two-way abstraction hierarchy.
 ### Composite
 Compose objects into tree structures and use common interface to access them. Simplifying recursive operations on nodes and leaves.
+### Decorator
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending behavior. Extending object without changing it.
