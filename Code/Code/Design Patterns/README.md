@@ -16,3 +16,5 @@ Global access to single instance of a class.
 Consume the interface of a class into another interface the client expects. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces. Wraps existing class. One-way Bridge pattern.
 ### Bridge
 Separate an abstraction from its implementation. Allows both sides to evolve indepoendently. Two-way abstraction hierarchy.
+### Composite
+Compose objects into tree structures and use common interface to access them. Simplifying recursive operations on nodes and leaves.
