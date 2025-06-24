@@ -20,3 +20,5 @@ Separate an abstraction from its implementation. Allows both sides to evolve ind
 Compose objects into tree structures and use common interface to access them. Simplifying recursive operations on nodes and leaves.
 ### Decorator
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending behavior. Extending object without changing it.
+### Facade
+Provide a simplified interface to a complex subsystem. Connect several service references into one for easier injection and manipulation. Doesn't contain any logic only passes calls to respective services.
