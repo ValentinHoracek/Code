@@ -2,6 +2,8 @@
 ## Behavioral
 ### Chain of Responsibility
 Modular request processing allowing a request to be passed along a chain of independent, interchangable handlers, each of which can process, transform or forward a request without the sender needing to know which handler will act.
+### Command
+Turns an action or request into an object that can be passed around and executed later. This way, the part of your program that triggers the action doesn’t need to know the details of how the action is done.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
