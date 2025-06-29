@@ -8,6 +8,8 @@ Turns an action or request into an object that can be passed around and executed
 Defines a way to evaluate language-like expressions (DSL - domain-specific language) by representing grammar rules as class objects. Each expression is an object that knows how to interpret itself, usually in a shared context. When working with real textual languages, you first need to parse the input into an abstract syntax tree composed of these expression objects.
 ### Iterator
 Provides a way to sequentially access elements of a collection without exposing its internal structure.
+### Mediator
+Defines specific object (the mediator) that encapsulates how a set of objects interact. It promotes loose coupling by preventing objects from referring to each other explicitly, letting them communicate only through the mediator.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
