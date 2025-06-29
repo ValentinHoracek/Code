@@ -20,6 +20,8 @@ Models and object's behaviour as a set of state, each encapsulating specific rul
 Pattern is used when an operation's behaviour need to change dynamically at runtime. Encapsulates a family of alrgorithms or behaviours for single operation and lets the client select the appropriate strategy before executing it. Strategies can be iomplemented with private constructors to control their creationa and enfroce correct usage.
 ### Template Method
 Defines the skeleton of an algorithm in a base class, but lets subclasses override or customize specific steps without changing the overall algorithm's structure. Allows variation in certain steps, while reusing common logic.
+### Visitor
+Lets you add new operations to existing classes without modifying or inheriting from them. Instead of changing the classes themselves, you create separate visitor classes that implement those new operations. It separates an algorithm from the object structure it operates on. This way, you can extend behavior without inheritance, keeping your original classes stable and clean.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
