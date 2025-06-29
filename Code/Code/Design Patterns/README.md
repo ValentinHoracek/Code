@@ -10,6 +10,8 @@ Defines a way to evaluate language-like expressions (DSL - domain-specific langu
 Provides a way to sequentially access elements of a collection without exposing its internal structure.
 ### Mediator
 Defines specific object (the mediator) that encapsulates how a set of objects interact. It promotes loose coupling by preventing objects from referring to each other explicitly, letting them communicate only through the mediator.
+### Memento
+Lets you save and restore an object's (originator) internal state without violating encapsulation. It provides undo or rollback functionality. 
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
