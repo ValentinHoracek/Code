@@ -14,6 +14,8 @@ Defines specific object (the mediator) that encapsulates how a set of objects in
 Lets you save and restore an object's (originator) internal state without violating encapsulation. It provides undo or rollback functionality.
 ### Observer
 Defines a one-to-many relationship between objects, where one object (subject) maintains a list of dependent objects (observers). When the subject's state changes, it autoamtically notifies all observers. Pattern promotes loose coupling, enabling objects to communicate without needing to know each other's internal structure or logic.
+### State
+Models and object's behaviour as a set of state, each encapsulating specific rules and actions. Transitions between states can also be controlled and prevented if certain conditions, like validity checks, are not met.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
