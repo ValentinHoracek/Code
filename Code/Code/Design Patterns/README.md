@@ -18,6 +18,8 @@ Defines a one-to-many relationship between objects, where one object (subject) m
 Models and object's behaviour as a set of state, each encapsulating specific rules and actions. Transitions between states can also be controlled and prevented if certain conditions, like validity checks, are not met.
 ### Strategy
 Pattern is used when an operation's behaviour need to change dynamically at runtime. Encapsulates a family of alrgorithms or behaviours for single operation and lets the client select the appropriate strategy before executing it. Strategies can be iomplemented with private constructors to control their creationa and enfroce correct usage.
+### Template Method
+Defines the skeleton of an algorithm in a base class, but lets subclasses override or customize specific steps without changing the overall algorithm's structure. Allows variation in certain steps, while reusing common logic.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
