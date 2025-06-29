@@ -2,8 +2,15 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            CoffeeBrewingProcess espresso = new EspressoBrewing();
+            espresso.Brew();
+
+            Console.WriteLine();
+
+            CoffeeBrewingProcess frenchPress = new FrenchPressBrewing();
+            frenchPress.Brew();
         }
     }
 }
