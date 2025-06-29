@@ -11,7 +11,9 @@ Provides a way to sequentially access elements of a collection without exposing 
 ### Mediator
 Defines specific object (the mediator) that encapsulates how a set of objects interact. It promotes loose coupling by preventing objects from referring to each other explicitly, letting them communicate only through the mediator.
 ### Memento
-Lets you save and restore an object's (originator) internal state without violating encapsulation. It provides undo or rollback functionality. 
+Lets you save and restore an object's (originator) internal state without violating encapsulation. It provides undo or rollback functionality.
+### Observer
+Defines a one-to-many relationship between objects, where one object (subject) maintains a list of dependent objects (observers). When the subject's state changes, it autoamtically notifies all observers. Pattern promotes loose coupling, enabling objects to communicate without needing to know each other's internal structure or logic.
 ## Creational
 ### Abstract Factory
 Create related instances without specifying their concrete class. Encapsulate object creation without leaking implementation details. Central point of control and creation.
